@@ -1,3 +1,18 @@
+
+# Data files 
+*/input/*
+*/output/*
+*RData
+*fq
+*gz
+*tar
+*bam
+*ioe
+*gtf
+*RDS
+logs/
+outs/
+
 # History files
 .Rhistory
 .Rapp.history
@@ -5,6 +20,7 @@
 # Session Data files
 .RData
 .RDataTmp
+.ipynb_checkpoints/
 
 # User-specific files
 .Ruserdata
