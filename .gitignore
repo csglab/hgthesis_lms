@@ -1,8 +1,12 @@
 
 # Data files 
+input/*
+output/*
+*input/*
+*output/*
+*/references/
 */input/
 */output/
-*/references/
 *RData
 *fq
 *gz
