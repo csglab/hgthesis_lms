@@ -4,15 +4,15 @@
 #SBATCH --output=logs/star.%j.out
 #SBATCH --mem=40gb
 #SBATCH --cpus-per-task=12
-#SBATCH --time=00:45:00
-#SBATCH --array=0-49
+#SBATCH --time=02:00:00
+#SBATCH --array=0-249
+#SBATCH --account=rrg-hsn
 
 # Modules required
 
 module load nixpkgs/16.09
 module load gcc/7.3.0
 module load star
-module load samtools/1.17
 
 GENDIR=../references/gencode_GRCh38.p13/STAR_genomeIndex
 
@@ -45,13 +45,15 @@ STAR --runMode alignReads \
      --runThreadN 11 \
      --outFileNamePrefix ${bam}. 
 
-echo "Finished this alignment!"
+gzip $fq1
+gzip $fq2
 
 echo "Sorting bamfile by position and converting into samfile"
-
+module load StdEnv/2020
+module load samtools/1.17
 bam=${BAMDIR}/${sample}.Aligned.out.bam
 sam=${BAMDIR}/${sample}.Aligned.out.pos.sorted.sam
 
 samtools sort -u -O sam -o ${sam} -@ 12 -m 2G ${bam}
 
-echo "Finished sorting!"
+echo "Finished successfully!"

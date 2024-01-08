@@ -36,6 +36,8 @@ OUTDIR=../output/rsem_readsimulator/run_${run}
 SIM_CTS=../output/countsimulator/${sample}/${run}_rsem.isoforms.results
 
 mkdir -p ${OUTDIR}
+echo "Generating sim fastqs from $SIM_CTS"
+echo "Will write output to $OUTDIR"
 
 rsem-simulate-reads ${REFNAME} \
                     ${RSEM_RES}/rsem.stat/rsem.model \
