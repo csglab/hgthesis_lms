@@ -1,12 +1,10 @@
-
-# Data files 
-input/*
-output/*
-*input/*
-*output/*
-*/references/
-*/input/
-*/output/
+# Data folders and large files 
+**/input/
+**/output/
+**/data/
+**/tmp
+**/tmp_output
+**/results/
 *RData
 *fq
 *gz
@@ -15,8 +13,8 @@ output/*
 *ioe
 *gtf
 *RDS
-logs/
-outs/
+**/logs/
+**/outs/
 
 # History files
 .Rhistory
