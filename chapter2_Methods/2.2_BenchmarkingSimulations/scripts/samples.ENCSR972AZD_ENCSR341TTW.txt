@@ -1,0 +1,4 @@
+K562_control_rep1
+K562_control_rep2
+K562_SRSF9.KD_rep1
+K562_SRSF9.KD_rep2
