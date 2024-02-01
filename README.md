@@ -8,8 +8,8 @@ The datasets pertaining this work have been deposited in several Zenodo collecti
 
 **Chapter 2 - Materials and Methods**
   * 2.1 TRex method
-   * Part 1 - simulated data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10383912.svg)](https://doi.org/10.5281/zenodo.10383912)
-   * Part 2 - TCGA data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10607249.svg)](https://doi.org/10.5281/zenodo.10607249)
+      - Part 1 - simulated data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10383912.svg)](https://doi.org/10.5281/zenodo.10383912)   
+      - Part 2 - TCGA data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10607249.svg)](https://doi.org/10.5281/zenodo.10607249)   
   * 2.2 Benchmarking TRex using simulated RNA-seq datasets [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551883.svg)](https://doi.org/10.5281/zenodo.10551883)
   * 2.3 TCGA analysis [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551879.svg)](https://doi.org/10.5281/zenodo.10551879)
   * 2.4 Functional analysis of alternative splicing events of interest 
