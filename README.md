@@ -7,5 +7,15 @@ This repository includes all the resources necessary to recreate the results of 
 The datasets pertaining this work have been deposited in several Zenodo collections that follow the same structure of the thesis:
 
 **Chapter 2 - Materials and Methods**
-  * Section 2.1 TRex method [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551879.svg)](https://doi.org/10.5281/zenodo.10551879)
-  * Section 2.2 Benchmarking Trex using simulated RNA-seq datasets [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551883.svg)](https://doi.org/10.5281/zenodo.10551883)
+  * 2.1 TRex method [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551879.svg)](https://doi.org/10.5281/zenodo.10551879)
+  * 2.2 Benchmarking TRex using simulated RNA-seq datasets [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551883.svg)](https://doi.org/10.5281/zenodo.10551883)
+  * 2.3 TCGA analysis 
+  * 2.4 Functional analysis of alternative splicing events of interest
+  * 2.5 Analysis of alternative splicing regulators
+
+**Chapter3 - Results**
+
+
+**Supplementary data tables**
+
+Suppementary Data Tables 1-2 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10606955.svg)](https://doi.org/10.5281/zenodo.10606955)
