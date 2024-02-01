@@ -1,10 +1,10 @@
-# Alternative splicing programs in tumor development and progression
+## Alternative splicing programs in tumor development and progression
 ### Thesis companion
 --- 
 
 This repository includes all the resources necessary to recreate the results of the thesis titled "Alternative splicing programs in tumor development and progression" submitted to the McGill University in partial fulfillment of the requirements of the degree of Master of Science in Human Gentics in December 2023. 
 
-# Data availability 
+## Data availability 
 
 The datasets pertaining this work have been deposited in several Zenodo collections that follow the same structure of the thesis:
 
