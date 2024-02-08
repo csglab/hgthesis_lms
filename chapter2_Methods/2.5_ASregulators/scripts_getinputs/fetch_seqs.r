@@ -5,7 +5,7 @@ library(parallel)
 
 # Load data
 message("Loading coordinate GRanges...")
-ioe.gr.ev<-readRDS(file = "../data/objects/event_cords_gr.RDS")
+ioe.gr.ev<-readRDS(file = "../input/event_annotations/event_cords_gr.RDS")
 message("Building human genome object...")
 hg<-BSgenome.Hsapiens.UCSC.hg38::BSgenome.Hsapiens.UCSC.hg38
 
@@ -40,6 +40,6 @@ for(w in ws){
     
     # Create fasta file
     message("Writting fasta file...")
-    Biostrings::writeXStringSet(seqs, paste0('../data/fastas/spliceSites_windowSize_',w-1,"_up_and_down",".fasta"))
+    Biostrings::writeXStringSet(seqs, paste0('../input/ss_fastas/spliceSites_windowSize_',w-1,"_up_and_down",".fasta"))
 }
 message("Finished successfully!")
