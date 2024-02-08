@@ -10,8 +10,8 @@
 
 cd ~/lib/MoSBAT # Needs to run inside the directory where MoSBAT is installed
 
-CISBP_FILE=${PWD%scripts_getinputs}/input/cisbp_Homo_sapiens_2023_06/all_cisbp_mosbat.txt
-OUT_DIR=${PWD%scripts_getinputs}/output/mosbat
+CISBP_FILE=${PWD%scripts_getinputs}/input/cisbp_Homo_sapiens_2023_06/all_cisbp_mosbat.txt # cispb file from previous script
+OUT_DIR=${PWD%scripts_getinputs}/output/mosbat # output directoy
 ID=Homo_sapiens_2023_06
 
 mkdir -p ${OUT_DIR}/${ID}
