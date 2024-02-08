@@ -1,11 +1,13 @@
 #!/usr/bin/bash
-#SBATCH --job-name="lmfit"
+#SBATCH --job-name="getobjs"
 #SBATCH --err=logs/lmfit.%j.err
 #SBATCH --output=outs/lmfit.%j.out
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=40gb
 #SBATCH --time=2:00:00
-#SBATCH --array=0-20
+#SBATCH --array=0-1
+#SBATCH --account=rrg-hsn
+
 
 # Load modules
 module load StdEnv/2020
@@ -13,9 +15,12 @@ module load r/4.1.2
 
 # Define variables
 
-AFF_DIR=../output/affimx
-WS_ARR=("200")
-EVENT_ARR=("SE" "AF" "MX" "RI" "A5" "A3" "AL")
+#AFF_DIR=../output/affimx
+AFF_DIR=~/lmprojects/splicing-pancancer/results/upstream_rbp_AffiMx_forward/by_event
+WS_ARR=("100")
+#WS_ARR=("50" "100" "200")
+#EVENT_ARR=("SE" "AF" "MX" "RI" "A5" "A3" "AL")
+EVENT_ARR=("SE" "A5")
 COEF="res.lfcShrink"
 args=()
 i=0

@@ -1,10 +1,10 @@
-events=("SE" "MX" "RI" "A5" "A3" "AL" "AF")
-AFFDIR=~/projects/rrg-hsn/ahcorcha/ahcorcha/Collaborations/C15_rbp_binding_splicing_larisa/data/05_processed_AffiMx/
-OUTDIR=/home/lmoral7/lmprojects/splicing-pancancer/results/upstream_rbp_AffiMx_forward/by_event
+#events=("SE" "MX" "RI" "A5" "A3" "AL" "AF")
+events=("SE" "A5")
+AFFDIR=../output/affimx_by_motif
+OUTDIR=../output/affimx
 
 readarray -t motifs < 25112023_representative_motif_ids.txt
 
-#cd ../results/upstream_rbp_AffiMx_forward/by_motif
 cd ${AFFDIR}
 
 for event in ${events[@]}

@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=60gb
 #SBATCH --time=5:00:00
-#SBATCH --array=0-41
+#SBATCH --array=0-419
 #SBATCH --account=rrg-hsn
 
 # Load modules
@@ -17,7 +17,11 @@ WS_ARR=("50" "100" "200")
 COEF_ARR=("res.lfcShrink")
 EVENT_ARR=("SE" "AF" "MX" "RI" "A5" "A3" "AL")
 CANCER_ARR=("BLCA" "BRCA" "CESC" "CHOL" "COAD" "ESCA" "HNSC" "KICH" "KIRC" "KIRP" "LIHC" "LUAD" "LUSC" "PAAD" "PCPG" "PRAD" "READ" "STAD" "THCA" "UCEC")
-#CANCER_ARR=("COAD" "HNSC" "LIHC" "PRAD" "READ" "STAD")
+
+OUTDIR=../output/rbp_models
+
+mkdir -p ${OUTDIR}
+mkdir -p ${OUTDIR}/coefficients ${OUTDIR}/training_coefficients ${OUTDIR}/performance_reports 
 
 args=()
 i=0
@@ -29,9 +33,13 @@ do
         do
             for e in ${EVENT_ARR[@]}
             do
-                str=${cancer}-${w}-${c}-${e}
-                args[i]=${str}
-                (( i++ ))
+                outfile=${OUTDIR}/coefficients/${cancer}_${e}_${w}.tsv 
+                if ! [ -f ${outfile} ]
+                then
+                    str=${cancer}-${w}-${c}-${e}
+                    args[i]=${str}
+                    (( i++ ))
+                fi
             done
         done
     done
@@ -52,9 +60,5 @@ echo " - Event type = $EVENT"
 # Run scripts
 
 TREXOBJ=../input/trex_objects/${CANCER}.condition.${COEF}.conditiontumor.RDS
-OUTDIR=../output/rbp_models
-
-mkdir -p ${OUTDIR}
-mkdir -p ${OUTDIR}/coefficients ${OUTDIR}/training_coefficients ${OUTDIR}/performance_reports 
 
 Rscript fit_RBP_models.r --windowSize ${WS} --cancer ${CANCER} --trexObject ${TREXOBJ} --eventType ${EVENT} --outDir ${OUTDIR}
