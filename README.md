@@ -25,15 +25,15 @@ The datasets pertaining this work have been deposited in several Zenodo collecti
 
  * 3.1 Study overview
    Figure 5, Supplementary data table 1
- * 3.2 Tumour purity has a strong cancer-specific effect on the quantification of alternative splicing
+ * 3.2 Tumour purity has a strong cancer-specific effect on the quantification of alternative splicing   
    Figure 6, Supplementary figures S1, S2 and S3
- * 3.3 TRex outperforms state-of-the-art and removes confounders of differential alternative splicing
+ * 3.3 TRex outperforms state-of-the-art and removes confounders of differential alternative splicing   
    Figure 7, Supplementary figure S4
- * 3.4 A pan-cancer map of unbiased alternative splicing programs reveals context-dependant and global patterns of dysregulation in cancer
+ * 3.4 A pan-cancer map of unbiased alternative splicing programs reveals context-dependant and global patterns of dysregulation in cancer   
    Figure 8, Supplementary figures S5-S14
- * 3.5 TRex detects neoplastic splicing programs in a case study of clear-cell Renal Cell Carcinoma
+ * 3.5 TRex detects neoplastic splicing programs in a case study of clear-cell Renal Cell Carcinoma   
    Figure 9, Supplementary figures S15 and S16
- * 3.6 RNA binding proteins as regulators of splicing programs associated with tumour development
+ * 3.6 RNA binding proteins as regulators of splicing programs associated with tumour development   
    Figure 10, Supplementary figures S16-S20
 
 **Supplementary data tables**
