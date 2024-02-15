@@ -5,16 +5,22 @@
 **/tmp
 **/tmp_output
 **/results/
-*RData
-*fq
-*gz
-*tar
-*bam
-*ioe
-*gtf
-*RDS
+.RData
+.fq
+.gz
+.tgz
+.tar
+.bam
+.ioe
+.gtf
+.RDS
+.tgz
+.pdf
+.jpeg
+.png
 **/logs/
 **/outs/
+**/.ipynb_checkpoints/
 
 # History files
 .Rhistory
