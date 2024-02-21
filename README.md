@@ -2,11 +2,6 @@
  
 This repository includes all the resources necessary to recreate the results of the thesis titled "Alternative splicing programs in tumor development and progression" submitted to the McGill University in partial fulfillment of the requirements of the degree of Master of Science in Human Genetics in December 2023. 
 
-# Thesis abstract
-
-
-
-
 ## Data availability 
 
 The datasets pertaining this work have been deposited in several Zenodo collections that follow the same structure of the thesis:
@@ -23,6 +18,9 @@ The datasets pertaining this work have been deposited in several Zenodo collecti
 
 **Chapter3 - Results**
 
+All the input objects required to reproduce the notebooks of this chapter have been deposited in a single Zenodo collection [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10666940.svg)](https://doi.org/10.5281/zenodo.10666940)
+
+The notebooks included in this repo encompass the following thesis sections: 
  * 3.1 Study overview   
    Figure 5, Supplementary data table 1
    
