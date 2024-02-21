@@ -8,35 +8,36 @@ The datasets pertaining this work have been deposited in several Zenodo collecti
 
 **Chapter 2 - Materials and Methods**
 
-  * 2.1 TRex method
+  * **2.1** TRex method
       - Part 1 - simulated data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10383912.svg)](https://doi.org/10.5281/zenodo.10383912)   
       - Part 2 - TCGA data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10607249.svg)](https://doi.org/10.5281/zenodo.10607249)   
-  * 2.2 Benchmarking TRex using simulated RNA-seq datasets [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551883.svg)](https://doi.org/10.5281/zenodo.10551883)
-  * 2.3 TCGA analysis [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551879.svg)](https://doi.org/10.5281/zenodo.10551879)
-  * 2.4 Functional analysis of alternative splicing events of interest [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10641433.svg)](https://doi.org/10.5281/zenodo.10641433)
-  * 2.5 Analysis of alternative splicing regulators [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10611685.svg)](https://doi.org/10.5281/zenodo.10611685)
+  * **2.2** Benchmarking TRex using simulated RNA-seq datasets [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551883.svg)](https://doi.org/10.5281/zenodo.10551883)
+  * **2.3** TCGA analysis [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10551879.svg)](https://doi.org/10.5281/zenodo.10551879)
+  * **2.4** Functional analysis of alternative splicing events of interest [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10641433.svg)](https://doi.org/10.5281/zenodo.10641433)
+  * **2.5** Analysis of alternative splicing regulators [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10611685.svg)](https://doi.org/10.5281/zenodo.10611685)
 
 **Chapter3 - Results**
 
-All the input objects required to reproduce the notebooks of this chapter have been deposited in a single Zenodo collection [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10666940.svg)](https://doi.org/10.5281/zenodo.10666940)
+All the input objects required to reproduce the notebooks can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10666940.svg)](https://doi.org/10.5281/zenodo.10666940)
 
-The notebooks included in this repo encompass the following thesis sections: 
- * 3.1 Study overview   
+The notebooks found under `Chapter3_Results` are organized in the following manner: 
+
+ * **3.1** Study overview   
    Figure 5, Supplementary data table 1
    
- * 3.2 Tumour purity has a strong cancer-specific effect on the quantification of alternative splicing   
+ * **3.2** Tumour purity has a strong cancer-specific effect on the quantification of alternative splicing   
    Figure 6, Supplementary figures S1, S2 and S3
    
- * 3.3 TRex outperforms state-of-the-art and removes confounders of differential alternative splicing   
+ * **3.3** TRex outperforms state-of-the-art and removes confounders of differential alternative splicing   
    Figure 7, Supplementary figure S4
    
- * 3.4 A pan-cancer map of unbiased alternative splicing programs reveals context-dependant and global patterns of dysregulation in cancer   
+ * **3.4** A pan-cancer map of unbiased alternative splicing programs reveals context-dependant and global patterns of dysregulation in cancer   
    Figure 8, Supplementary figures S5-S14
    
- * 3.5 TRex detects neoplastic splicing programs in a case study of clear-cell Renal Cell Carcinoma   
+ * **3.5** TRex detects neoplastic splicing programs in a case study of clear-cell Renal Cell Carcinoma   
    Figure 9, Supplementary figures S15 and S16
    
- * 3.6 RNA binding proteins as regulators of splicing programs associated with tumour development   
+ * **3.6** RNA binding proteins as regulators of splicing programs associated with tumour development   
    Figure 10, Supplementary figures S16-S20
 
 **Supplementary data tables**
