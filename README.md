@@ -7,6 +7,7 @@ This repository includes all the resources necessary to recreate the results of 
 The datasets pertaining this work have been deposited in several Zenodo collections that follow the same structure of the thesis:
 
 **Chapter 2 - Materials and Methods**
+---
 
   * **2.1** TRex method
       - Part 1 - simulated data [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10383912.svg)](https://doi.org/10.5281/zenodo.10383912)   
@@ -17,6 +18,7 @@ The datasets pertaining this work have been deposited in several Zenodo collecti
   * **2.5** Analysis of alternative splicing regulators [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10611685.svg)](https://doi.org/10.5281/zenodo.10611685)
 
 **Chapter3 - Results**
+---
 
 All the input objects required to reproduce the notebooks can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10666940.svg)](https://doi.org/10.5281/zenodo.10666940)
 
@@ -41,5 +43,6 @@ The notebooks found under `Chapter3_Results` are organized in the following mann
    Figure 10, Supplementary figures S16-S20
 
 **Supplementary data tables**
+---
 
 Suppementary Data Tables 1-2 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10606955.svg)](https://doi.org/10.5281/zenodo.10606955)
