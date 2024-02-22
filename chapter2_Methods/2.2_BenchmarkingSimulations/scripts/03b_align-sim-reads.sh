@@ -34,19 +34,18 @@ BAMDIR=../output/star/run_${run}
 mkdir -p ${BAMDIR} 
 
 bam=${BAMDIR}/${sample}
-fq1=${FSQDIR}/${sample}_1.fq
-fq2=${FSQDIR}/${sample}_2.fq
+fq1=${FSQDIR}/${sample}_1.fq.gz
+fq2=${FSQDIR}/${sample}_2.fq.gz
 
 STAR --runMode alignReads \
      --genomeLoad  NoSharedMemory \
      --outSAMtype BAM Unsorted \
      --genomeDir ${GENDIR} \
+     --readFilesCommand zcat \
      --readFilesIn ${fq1} ${fq2} \
      --runThreadN 11 \
      --outFileNamePrefix ${bam}. 
 
-gzip $fq1
-gzip $fq2
 
 echo "Sorting bamfile by position and converting into samfile"
 module load StdEnv/2020
