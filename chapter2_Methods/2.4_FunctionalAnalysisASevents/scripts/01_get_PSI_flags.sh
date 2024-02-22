@@ -4,9 +4,9 @@
 #SBATCH --output=outs/flag.%j.out
 #SBATCH --account=rrg-hsn
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=30gb
+#SBATCH --mem=12gb
 #SBATCH --time=01:00:00
-#SBATCH --array=0-139
+#SBATCH --array=0-85
 
 # Load modules
 
@@ -23,7 +23,7 @@ while read p
 do
   params[i]="$p"
   i=$((i+1))      
-done < flag_params.tsv
+done < flag_params.mis
 
 cancer=$(echo ${params[${SLURM_ARRAY_TASK_ID}]} | cut -d "-" -f1 )
 event=$(echo ${params[${SLURM_ARRAY_TASK_ID}]} | cut -d "-" -f2 )
